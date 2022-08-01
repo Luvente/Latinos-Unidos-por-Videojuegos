@@ -1,0 +1,84 @@
+/*FUENTES*/
+@font-face{
+    font-family: "TrebuchetMS";
+    src: url('fonts/TrebuchetMS.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "BebasNeue";
+    src: url('fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url('fonts/websymbols-regular-webfont.eot');
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*GENERALES*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url("../Img/fondo\ mario.jpg");
+}
+.contenedor {
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 70%;
+    height: 30%;
+    padding: 3%;
+    border-radius: 2%;
+    box-shadow: 0px 0px 68px #e93b3b;
+    background-color: #ceeabd;
+}
+
+.mario {
+ height: 100px;
+ margin-top: -160px;
+ margin-left: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.2rem;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #4cacaf; /* Green */
+    color: white;
+}
+
+@media (max-width :460px) {
+   .mario {
+    margin-left: 85px;
+    height: 52px;
+    margin-top: -9px;
+   }
+}
